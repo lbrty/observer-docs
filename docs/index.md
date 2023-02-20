@@ -11,18 +11,18 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /guide/getting-started
+      link: /guide/
     - theme: alt
       text: View on GitHub
-      link: https://github.com/vuejs/vitepress
+      link: https://github.com/lbrty/observer
 
 features:
-  - title: "Vite: The DX that can't be beat"
-    details: Feel the speed of Vite. Instant server start and lightning fast HMR that stays fast regardless of the app size.
-  - title: Designed to be simplicity first
-    details: With Markdown-centered content, it's built to help you focus on writing and deployed with minimum configuration.
-  - title: Power of Vue meets Markdown
-    details: Enhance your content with all the features of Vue in Markdown, while being able to customize your site with Vue.
-  - title: Fully static yet still dynamic
-    details: Go wild with true SSG + SPA architecture. Static on page load, but engage users with 100% interactivity from there.
+  - title: 🔐 Encryption and protection of sensitive information
+    details: Personal information and personal documents are encrypted and protected from strangers.
+  - title: 👨‍👩‍👧‍👦 Human & 🐶 pet friendly system
+    details: People and pets can be registered and receive all sorts of support.
+  - title: ⚡️ Two factor authentication and decent account security requirements
+    details: System supports two factor authentication and requires minimum password security rules.
+  - title: 🧿 System audit logs
+    details: System tracks actions users perform to support auditing actions and to capture important changes in records.
 ---
