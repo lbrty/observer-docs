@@ -1,7 +1,7 @@
 # Configuration
 
 Below you can find environment variables Observer uses and
-depends on there are sane defaults for some however.
+depends and yet many come with defaults.
 
 ## Server settings
 
@@ -242,6 +242,19 @@ mailer_type: str = "dummy"
 ```py
 from_email: str = "no-reply@email.com"
 ```
+
+### Gmail
+
+Gmail mailer expects the following variable to be set
+
+1. `GMAIL_USERNAME`
+2. `GMAIL_PASSWORD`
+3. `GMAIL_PORT`, default: 465
+4. `GMAIL_HOSTNAME`, default: smtp.gmail.com
+
+### Sendgrid
+
+Sendgrid mailer expects `SENDGRID_API_KEY` variable to be set.
 
 ## Audits
 
