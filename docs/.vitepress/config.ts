@@ -68,7 +68,6 @@ function sidebarGuide() {
       items: [
         { text: 'What is Observer?', link: '/guide/' },
         { text: 'Configuration', link: '/guide/configuration' },
-        { text: 'Routing', link: '/guide/routing' },
         { text: 'Deploying', link: '/guide/deploying' },
         { text: 'Internationalization', link: '/guide/i18n' }
       ]
@@ -82,21 +81,10 @@ function sidebarGuide() {
       ]
     },
     {
-      text: 'Theme',
+      text: 'CLI',
       collapsed: false,
       items: [
         { text: 'Introduction', link: '/guide/theme-introduction' },
-        { text: 'Nav', link: '/guide/theme-nav' },
-        { text: 'Sidebar', link: '/guide/theme-sidebar' },
-        { text: 'Prev Next Link', link: '/guide/theme-prev-next-link' },
-        { text: 'Edit Link', link: '/guide/theme-edit-link' },
-        { text: 'Last Updated', link: '/guide/theme-last-updated' },
-        { text: 'Layout', link: '/guide/theme-layout' },
-        { text: 'Home Page', link: '/guide/theme-home-page' },
-        { text: 'Team Page', link: '/guide/theme-team-page' },
-        { text: 'Badge', link: '/guide/theme-badge' },
-        { text: 'Footer', link: '/guide/theme-footer' },
-        { text: 'Search', link: '/guide/theme-search' },
         { text: 'Carbon Ads', link: '/guide/theme-carbon-ads' }
       ]
     },
