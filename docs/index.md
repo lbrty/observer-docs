@@ -7,7 +7,7 @@ titleTemplate: Help and support people in need
 hero:
   name: Observer
   text: Help and support people in need
-  tagline: Made in 🇩🇪 with love from 🇰🇬 & 🇺🇦 for people in need.
+  tagline: Made with ❤️ for beings in need.
   actions:
     - theme: brand
       text: Get Started

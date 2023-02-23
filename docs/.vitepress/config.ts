@@ -1,4 +1,8 @@
+import { createRequire } from 'module'
 import { defineConfig } from 'vitepress'
+
+const require = createRequire(import.meta.url)
+const pkg = require("../../package.json")
 
 export default defineConfig({
   lang: 'en-US',
@@ -46,7 +50,7 @@ function nav() {
     { text: 'Guide', link: '/guide/', activeMatch: '/guide/' },
     { text: 'Configs', link: '/config/introduction', activeMatch: '/config/' },
     {
-      text: "__VERSION__",
+      text: pkg.version,
       items: [
         {
           text: 'Changelog',
@@ -99,8 +103,6 @@ function sidebarConfig() {
       items: [
         { text: 'Introduction', link: '/config/introduction' },
         { text: 'App Configs', link: '/config/app-configs' },
-        { text: 'Theme Configs', link: '/config/theme-configs' },
-        { text: 'Frontmatter Configs', link: '/config/frontmatter-configs' }
       ]
     }
   ]
