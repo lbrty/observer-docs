@@ -23,6 +23,50 @@ port: int = 3000
 
 ## Database settings
 
+Postgres is default database Observer uses so it
+has to be configured via DSN like `DB_URI=postgresql+asyncpg://postgres:postgres@localhost:5432/observer`.
+Also it is possible to configure connection pooling and debugging options.
+
+### `DB_URI`
+
+```py
+db_uri: PostgresDsn
+```
+
+### `POOL_SIZE`
+
+```py
+pool_size: int = 5
+```
+
+### `MAX_OVERFLOW`
+
+```py
+max_overflow: int = 10
+```
+
+### `POOL_TIMEOUT`
+
+```py
+pool_timeout: int = 30
+```
+
+### `ECHO`
+
+Echo SQL queries and other debugging information.
+
+```py
+echo: bool = False
+```
+
+### `ECHO_POOL`
+
+Log pool operations such as connection check out, number of active connections etc.
+
+```py
+echo_pool: bool = False
+```
+
 ## OpenAPI
 
 ### `TITLE`
