@@ -21,6 +21,8 @@ Server port.
 port: int = 3000
 ```
 
+## Database settings
+
 ## OpenAPI
 
 ### `TITLE`
