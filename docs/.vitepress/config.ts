@@ -4,6 +4,7 @@ export default defineConfig({
   lang: 'en-US',
   title: 'Observer',
   description: 'Help and support people in need',
+  base: '/observer-docs/',
 
   lastUpdated: true,
   cleanUrls: true,
