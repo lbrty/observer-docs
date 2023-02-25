@@ -73,6 +73,7 @@ function sidebarGuide() {
       items: [
         { text: 'What is Observer?', link: '/guide/' },
         { text: 'Configuration', link: '/guide/configuration' },
+        { text: 'Allowed documents', link: '/guide/allowed-documents' },
         { text: 'Deploying', link: '/guide/deploying' },
         { text: 'Internationalization', link: '/guide/i18n' }
       ]
@@ -83,6 +84,7 @@ function sidebarGuide() {
       items: [
         { text: 'Introduction', link: '/guide/encryption/intro' },
         { text: 'Keys', link: '/guide/encryption/keys' },
+        { text: 'Documents', link: '/guide/encryption/documents' },
       ]
     },
     {
