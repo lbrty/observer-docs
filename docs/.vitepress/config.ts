@@ -86,6 +86,13 @@ function sidebarGuide() {
       ]
     },
     {
+      text: 'Security',
+      collapsed: false,
+      items: [
+        { text: 'Audit logs', link: '/guide/audit-logs' },
+      ]
+    },
+    {
       text: 'CLI',
       collapsed: false,
       items: [
