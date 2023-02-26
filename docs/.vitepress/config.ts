@@ -90,6 +90,8 @@ function sidebarGuide() {
       collapsed: false,
       items: [
         { text: 'Audit logs', link: '/guide/audit-logs' },
+        { text: 'Session handling', link: '/guide/sessions' },
+        { text: 'Two factor authentication', link: '/guide/otp' },
       ]
     },
     {
