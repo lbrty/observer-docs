@@ -107,8 +107,7 @@ function sidebarGuide() {
       text: 'CLI',
       collapsed: false,
       items: [
-        { text: 'Introduction', link: '/guide/theme-introduction' },
-        { text: 'Carbon Ads', link: '/guide/theme-carbon-ads' }
+        { text: 'Introduction', link: '/guide/cli' },
       ]
     },
   ]
