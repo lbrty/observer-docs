@@ -1,6 +1,6 @@
 # 🔐 Document encryption
 
-All uploaded document are encrypted using `AES` where random decryption
+All uploaded documents are encrypted using `AES` where random decryption
 key is generated and encrypted using the latest `RSA` key from keychain.
 
 To encrypt document random secret key and IV values are generated

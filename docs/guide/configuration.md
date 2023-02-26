@@ -24,7 +24,12 @@ port: int = 3000
 ## Database settings
 
 Postgres is default database Observer uses so it
-has to be configured via DSN like `DB_URI=postgresql+asyncpg://postgres:postgres@localhost:5432/observer`.
+has to be configured via DSN like
+
+```sh
+DB_URI=postgresql+asyncpg://postgres:postgres@localhost:5432/observer
+```
+
 Also it is possible to configure connection pooling and debugging options.
 
 ### `DB_URI`

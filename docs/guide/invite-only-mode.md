@@ -1,0 +1,1 @@
+# 🏕️ Invite only mode
