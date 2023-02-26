@@ -26,7 +26,6 @@ export default defineConfig({
 
     sidebar: {
       '/guide/': sidebarGuide(),
-      '/config/': sidebarConfig()
     },
 
     editLink: {
@@ -47,8 +46,8 @@ export default defineConfig({
 
 function nav() {
   return [
-    { text: 'Guide', link: '/guide/', activeMatch: '/guide/' },
-    { text: 'Configs', link: '/config/introduction', activeMatch: '/config/' },
+    { text: 'Guide', link: '/guide/', activeMatch: '/guide/$' },
+    { text: 'Configs', link: '/guide/configuration', activeMatch: '/guide/configuration' },
     {
       text: pkg.version,
       items: [
@@ -110,17 +109,5 @@ function sidebarGuide() {
         { text: 'Introduction', link: '/guide/cli' },
       ]
     },
-  ]
-}
-
-function sidebarConfig() {
-  return [
-    {
-      text: 'Config',
-      items: [
-        { text: 'Introduction', link: '/config/introduction' },
-        { text: 'App Configs', link: '/config/app-configs' },
-      ]
-    }
   ]
 }
