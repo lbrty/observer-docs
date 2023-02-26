@@ -72,10 +72,24 @@ function sidebarGuide() {
       collapsed: false,
       items: [
         { text: 'What is Observer?', link: '/guide/' },
+        { text: 'Supporting project', link: '/guide/supporting-project' },
+      ]
+    },
+    {
+      text: 'Guide',
+      items: [
         { text: 'Configuration', link: '/guide/configuration' },
-        { text: 'Allowed documents', link: '/guide/allowed-documents' },
         { text: 'Deploying', link: '/guide/deploying' },
-        { text: 'Internationalization', link: '/guide/i18n' }
+        { text: 'Invite only mode', link: '/guide/invite-only-mode' },
+        { text: 'Allowed documents', link: '/guide/allowed-documents' },
+        { text: 'Internationalization', link: '/guide/i18n' },
+      ]
+    },
+    {
+      text: 'Security',
+      collapsed: false,
+      items: [
+        { text: 'Audit logs', link: '/guide/audit-logs' },
       ]
     },
     {
@@ -85,13 +99,6 @@ function sidebarGuide() {
         { text: 'Introduction', link: '/guide/encryption/intro' },
         { text: 'Keys', link: '/guide/encryption/keys' },
         { text: 'Documents', link: '/guide/encryption/documents' },
-      ]
-    },
-    {
-      text: 'Security',
-      collapsed: false,
-      items: [
-        { text: 'Audit logs', link: '/guide/audit-logs' },
       ]
     },
     {
