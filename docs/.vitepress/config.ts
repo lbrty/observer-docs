@@ -77,6 +77,7 @@ function sidebarGuide() {
     {
       text: 'Guide',
       items: [
+        { text: 'Tech', link: '/guide/tech' },
         { text: 'Configuration', link: '/guide/configuration' },
         { text: 'Deploying', link: '/guide/deploying' },
         { text: 'Invite only mode', link: '/guide/invite-only-mode' },
