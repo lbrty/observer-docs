@@ -3,6 +3,10 @@
 Below you can find environment variables Observer uses and
 depends and yet many come with defaults.
 
+::: tip
+Observer allows users to configure using `.env` files as well.
+:::
+
 ## Server settings
 
 ### `DEBUG`

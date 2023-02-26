@@ -106,7 +106,11 @@ function sidebarGuide() {
       text: 'CLI',
       collapsed: false,
       items: [
-        { text: 'Introduction', link: '/guide/cli' },
+        { text: 'Introduction', link: '/guide/cli/' },
+        { text: 'Keys', link: '/guide/encryption/keys' },
+        { text: 'Database migrations', link: '/guide/cli/migrations' },
+        { text: 'Dev server', link: '/guide/cli/server' },
+        { text: 'OpenAPI', link: '/guide/cli/openapi' },
       ]
     },
   ]
