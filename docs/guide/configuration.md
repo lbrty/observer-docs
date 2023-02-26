@@ -221,6 +221,20 @@ Subject of invite emails.
 invite_subject: str = "You are invited to join Observer"
 ```
 
+## JWT session expiration
+
+### `ACCESS_TOKEN_EXPIRATION_MINUTES`
+
+```py
+access_token_expiration_minutes: int = 15
+```
+
+### `REFRESH_TOKEN_EXPIRATION_DAYS`
+
+```py
+refresh_token_expiration_days: int = 180
+```
+
 ## TOTP
 
 ### `TOTP_LEEWAY`
