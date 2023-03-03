@@ -101,6 +101,7 @@ function sidebarGuide() {
       items: [
         { text: 'Introduction', link: '/guide/encryption/intro' },
         { text: 'Keys', link: '/guide/encryption/keys' },
+        { text: 'Keychain', link: '/guide/encryption/keychain' },
         { text: 'Documents', link: '/guide/encryption/documents' },
       ]
     },
