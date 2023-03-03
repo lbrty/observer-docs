@@ -6,7 +6,7 @@
   "author": "Sultan Iman <sultan.imanhodjaev@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "docs:dev": "vitepress dev docs",
+    "docs:dev": "vitepress dev docs --base=/",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"
   },
