@@ -14,7 +14,7 @@ Before you can proceed please decide and configure the following things
 2. Mailer backend [`MAILER_TYPE`](./configuration#mailer) - only sendgrid and smtp gmail supported at the moment each required additional configuration,
 3. Storage [`STORAGE`](./configuration#storage) - it is used to store encryption keys as well as to store documents,
 4. Database [`DB_URI`](./configuration#db-uri) - it has to be Postgres 12+,
-5. Encryption keys - personal information of people and animals are encrypted, please [generate keys](./encryption/keys).
+5. Encryption keys - personal information of people and animals are encrypted, please [generate keys](./encryption/keys) and keep in mind to place keys where they belong.
 
 ## Configuring storage
 
