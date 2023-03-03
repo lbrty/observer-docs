@@ -2,11 +2,11 @@
 layout: home
 
 title: Observer
-titleTemplate: Help and support people in need
+titleTemplate: Help and support souls in need
 
 hero:
   name: Observer
-  text: Help and support people in need
+  text: Help and support souls in need
   tagline: Made with ❤️ for beings in need.
   actions:
     - theme: brand
@@ -17,12 +17,12 @@ hero:
       link: https://github.com/lbrty/observer
 
 features:
-  - title: 🔐 Encryption and protection of sensitive information
+  - title: 🔐 Encryption of sensitive information
     details: Personal information and personal documents are encrypted and protected from strangers.
-  - title: 👨‍👩‍👧‍👦 Human & 🐶 pet friendly system
+  - title: 👨‍👩‍👧‍👦 Human & 🐶 pet friendly
     details: People and pets can be registered and receive all sorts of support.
-  - title: ⚡️ Two factor authentication and decent account security requirements
+  - title: ⚡️ Two factor authentication
     details: System supports two factor authentication and requires minimum password security rules.
-  - title: 🧿 System audit logs
+  - title: 🧿 Audit logs
     details: System tracks actions users perform to support auditing actions and to capture important changes in records.
 ---
