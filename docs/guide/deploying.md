@@ -12,7 +12,7 @@ Before you can proceed please decide and configure the following things
 
 1. Domain for frontend app [`APP_DOMAIN`](./configuration#app-domain) - used to build links in emails,
 2. Mailer backend [`MAILER_TYPE`](./configuration#mailer) - only sendgrid and smtp gmail supported at the moment each required additional configuration,
-3. Storage [`STORAGE`](http://localhost:5173/guide/configuration#storage) - it is used to store encryption keys as well as to store documents,
+3. Storage [`STORAGE`](./configuration#storage) - it is used to store encryption keys as well as to store documents,
 4. Database [`DB_URI`](./configuration#db-uri) - it has to be Postgres 12+,
 5. Encryption keys - personal information of people and animals are encrypted, please [generate keys](./encryption/keys).
 
