@@ -22,7 +22,8 @@ Once you decide on [`STORAGE_KIND`](./configuration#storage-kind) `fs` or `s3`, 
 
 1. [`STORAGE_ROOT`](./configuration#storage-root) is used as prefix to build paths when uploading,deleting, reading files,
 2. [`DOCUMENTS_PATH`](./configuration#documents-path) (relative path to `STORAGE_ROOT`) and finally define,
-3. [`KEYSTORE_PATH`](./configuration#keystore-path) (relative path to `STORAGE_ROOT`).
+3. [`KEYSTORE_PATH`](./configuration#keystore-path) (relative path to `STORAGE_ROOT`),
+4. [`MAX_UPLOAD_SIZE`](./configuration#max-upload-size) it defaults to 5Mb but you can also adjust this.
 
 ::: warning
 For S3 storage keys and documents have to reside in the same S3 bucket under different paths for example
