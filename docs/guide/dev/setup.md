@@ -40,7 +40,6 @@ python -m observer server start --port 3000
 make serve
 ```
 
-
 ## Postgres with docker
 If you have docker installed you can consider to use the following
 docker compose file instead of installing Postgres in your main system
@@ -65,3 +64,12 @@ volumes:
   # for persistence between restarts
   postgres_data: {}
 ```
+
+## Running tests
+
+To run tests you can use `make test` command and yet you will need to create test database.
+
+## Generating swagger
+
+All API schema changes should be reflect in OpenAPI schema.
+To do this please run `make swagger`.
