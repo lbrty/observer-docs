@@ -83,6 +83,7 @@ function sidebarGuide() {
         { text: 'Invite only mode', link: '/guide/invite-only-mode' },
         { text: 'Allowed documents', link: '/guide/allowed-documents' },
         { text: 'Internationalization', link: '/guide/i18n' },
+        { text: 'Development', link: '/guide/dev/setup' },
       ]
     },
     {
