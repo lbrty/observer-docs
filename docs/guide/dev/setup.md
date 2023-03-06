@@ -73,3 +73,11 @@ To run tests you can use `make test` command and yet you will need to create tes
 
 All API schema changes should be reflect in OpenAPI schema.
 To do this please run `make swagger`.
+
+
+## Migrations
+
+To generate a migration you can use `python -m observer db revision -m "migration name"` this will create migration file,
+to apply migrations you can call `python -m observer db upgrade`.
+
+For more please look at [CLI/migrations](../cli/migrations.md).
